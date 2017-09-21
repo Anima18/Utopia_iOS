@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97F7929E1F73C7FA0049FE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F7929D1F73C7FA0049FE8E /* main.m */; };
+		97F792A11F73C7FA0049FE8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792A01F73C7FA0049FE8E /* AppDelegate.m */; };
+		97F792A71F73C7FA0049FE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F792A51F73C7FA0049FE8E /* Main.storyboard */; };
+		97F792A91F73C7FA0049FE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F792A81F73C7FA0049FE8E /* Assets.xcassets */; };
+		97F792AC1F73C7FA0049FE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F792AA1F73C7FA0049FE8E /* LaunchScreen.storyboard */; };
+		97F792DC1F73D4D90049FE8E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792CB1F73D4D90049FE8E /* HomeViewController.m */; };
+		97F792DD1F73D4D90049FE8E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F792CC1F73D4D90049FE8E /* HomeViewController.xib */; };
+		97F792DE1F73D4D90049FE8E /* IdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792CF1F73D4D90049FE8E /* IdeaViewController.m */; };
+		97F792DF1F73D4D90049FE8E /* IdeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F792D01F73D4D90049FE8E /* IdeaViewController.xib */; };
+		97F792E01F73D4D90049FE8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792D31F73D4D90049FE8E /* ViewController.m */; };
+		97F792E11F73D4D90049FE8E /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792D61F73D4D90049FE8E /* MeViewController.m */; };
+		97F792E21F73D4D90049FE8E /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F792D71F73D4D90049FE8E /* MeViewController.xib */; };
+		97F792E31F73D4D90049FE8E /* PlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792DA1F73D4D90049FE8E /* PlanViewController.m */; };
+		97F792E41F73D4D90049FE8E /* PlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F792DB1F73D4D90049FE8E /* PlanViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97F792991F73C7FA0049FE8E /* Utopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F7929D1F73C7FA0049FE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97F7929F1F73C7FA0049FE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97F792A01F73C7FA0049FE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97F792A61F73C7FA0049FE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F792A81F73C7FA0049FE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F792AB1F73C7FA0049FE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97F792AD1F73C7FA0049FE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F792CA1F73D4D90049FE8E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		97F792CB1F73D4D90049FE8E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		97F792CC1F73D4D90049FE8E /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		97F792CE1F73D4D90049FE8E /* IdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaViewController.h; sourceTree = "<group>"; };
+		97F792CF1F73D4D90049FE8E /* IdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaViewController.m; sourceTree = "<group>"; };
+		97F792D01F73D4D90049FE8E /* IdeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdeaViewController.xib; sourceTree = "<group>"; };
+		97F792D21F73D4D90049FE8E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97F792D31F73D4D90049FE8E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97F792D51F73D4D90049FE8E /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		97F792D61F73D4D90049FE8E /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		97F792D71F73D4D90049FE8E /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		97F792D91F73D4D90049FE8E /* PlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanViewController.h; sourceTree = "<group>"; };
+		97F792DA1F73D4D90049FE8E /* PlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanViewController.m; sourceTree = "<group>"; };
+		97F792DB1F73D4D90049FE8E /* PlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F792961F73C7FA0049FE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97F792901F73C7FA0049FE8E = {
+			isa = PBXGroup;
+			children = (
+				97F7929B1F73C7FA0049FE8E /* Utopia */,
+				97F7929A1F73C7FA0049FE8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97F7929A1F73C7FA0049FE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F792991F73C7FA0049FE8E /* Utopia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F7929B1F73C7FA0049FE8E /* Utopia */ = {
+			isa = PBXGroup;
+			children = (
+				97F7929F1F73C7FA0049FE8E /* AppDelegate.h */,
+				97F792A01F73C7FA0049FE8E /* AppDelegate.m */,
+				97F792A51F73C7FA0049FE8E /* Main.storyboard */,
+				97F792C71F73D4D90049FE8E /* src */,
+				97F792A81F73C7FA0049FE8E /* Assets.xcassets */,
+				97F792AA1F73C7FA0049FE8E /* LaunchScreen.storyboard */,
+				97F792AD1F73C7FA0049FE8E /* Info.plist */,
+				97F7929C1F73C7FA0049FE8E /* Supporting Files */,
+			);
+			path = Utopia;
+			sourceTree = "<group>";
+		};
+		97F7929C1F73C7FA0049FE8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F7929D1F73C7FA0049FE8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97F792C71F73D4D90049FE8E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				97F792C81F73D4D90049FE8E /* module */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		97F792C81F73D4D90049FE8E /* module */ = {
+			isa = PBXGroup;
+			children = (
+				97F792C91F73D4D90049FE8E /* home */,
+				97F792CD1F73D4D90049FE8E /* idea */,
+				97F792D11F73D4D90049FE8E /* main */,
+				97F792D41F73D4D90049FE8E /* me */,
+				97F792D81F73D4D90049FE8E /* plan */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		97F792C91F73D4D90049FE8E /* home */ = {
+			isa = PBXGroup;
+			children = (
+				97F792CA1F73D4D90049FE8E /* HomeViewController.h */,
+				97F792CB1F73D4D90049FE8E /* HomeViewController.m */,
+				97F792CC1F73D4D90049FE8E /* HomeViewController.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		97F792CD1F73D4D90049FE8E /* idea */ = {
+			isa = PBXGroup;
+			children = (
+				97F792CE1F73D4D90049FE8E /* IdeaViewController.h */,
+				97F792CF1F73D4D90049FE8E /* IdeaViewController.m */,
+				97F792D01F73D4D90049FE8E /* IdeaViewController.xib */,
+			);
+			path = idea;
+			sourceTree = "<group>";
+		};
+		97F792D11F73D4D90049FE8E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				97F792D21F73D4D90049FE8E /* ViewController.h */,
+				97F792D31F73D4D90049FE8E /* ViewController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		97F792D41F73D4D90049FE8E /* me */ = {
+			isa = PBXGroup;
+			children = (
+				97F792D51F73D4D90049FE8E /* MeViewController.h */,
+				97F792D61F73D4D90049FE8E /* MeViewController.m */,
+				97F792D71F73D4D90049FE8E /* MeViewController.xib */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+		97F792D81F73D4D90049FE8E /* plan */ = {
+			isa = PBXGroup;
+			children = (
+				97F792D91F73D4D90049FE8E /* PlanViewController.h */,
+				97F792DA1F73D4D90049FE8E /* PlanViewController.m */,
+				97F792DB1F73D4D90049FE8E /* PlanViewController.xib */,
+			);
+			path = plan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F792981F73C7FA0049FE8E /* Utopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F792B01F73C7FA0049FE8E /* Build configuration list for PBXNativeTarget "Utopia" */;
+			buildPhases = (
+				97F792951F73C7FA0049FE8E /* Sources */,
+				97F792961F73C7FA0049FE8E /* Frameworks */,
+				97F792971F73C7FA0049FE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Utopia;
+			productName = Utopia;
+			productReference = 97F792991F73C7FA0049FE8E /* Utopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F792911F73C7FA0049FE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = jianjianhong;
+				TargetAttributes = {
+					97F792981F73C7FA0049FE8E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KH2VKC7928;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97F792941F73C7FA0049FE8E /* Build configuration list for PBXProject "Utopia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F792901F73C7FA0049FE8E;
+			productRefGroup = 97F7929A1F73C7FA0049FE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F792981F73C7FA0049FE8E /* Utopia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F792971F73C7FA0049FE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F792E41F73D4D90049FE8E /* PlanViewController.xib in Resources */,
+				97F792E21F73D4D90049FE8E /* MeViewController.xib in Resources */,
+				97F792AC1F73C7FA0049FE8E /* LaunchScreen.storyboard in Resources */,
+				97F792A91F73C7FA0049FE8E /* Assets.xcassets in Resources */,
+				97F792A71F73C7FA0049FE8E /* Main.storyboard in Resources */,
+				97F792DD1F73D4D90049FE8E /* HomeViewController.xib in Resources */,
+				97F792DF1F73D4D90049FE8E /* IdeaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F792951F73C7FA0049FE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F792E11F73D4D90049FE8E /* MeViewController.m in Sources */,
+				97F792E31F73D4D90049FE8E /* PlanViewController.m in Sources */,
+				97F792A11F73C7FA0049FE8E /* AppDelegate.m in Sources */,
+				97F792DE1F73D4D90049FE8E /* IdeaViewController.m in Sources */,
+				97F7929E1F73C7FA0049FE8E /* main.m in Sources */,
+				97F792DC1F73D4D90049FE8E /* HomeViewController.m in Sources */,
+				97F792E01F73D4D90049FE8E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97F792A51F73C7FA0049FE8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F792A61F73C7FA0049FE8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97F792AA1F73C7FA0049FE8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F792AB1F73C7FA0049FE8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97F792AE1F73C7FA0049FE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97F792AF1F73C7FA0049FE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F792B11F73C7FA0049FE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH2VKC7928;
+				INFOPLIST_FILE = Utopia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.Utopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97F792B21F73C7FA0049FE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH2VKC7928;
+				INFOPLIST_FILE = Utopia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chris.Utopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F792941F73C7FA0049FE8E /* Build configuration list for PBXProject "Utopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F792AE1F73C7FA0049FE8E /* Debug */,
+				97F792AF1F73C7FA0049FE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F792B01F73C7FA0049FE8E /* Build configuration list for PBXNativeTarget "Utopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F792B11F73C7FA0049FE8E /* Debug */,
+				97F792B21F73C7FA0049FE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F792911F73C7FA0049FE8E /* Project object */;
+}

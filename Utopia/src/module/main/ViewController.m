@@ -1,0 +1,73 @@
+//
+//  ViewController.m
+//  Utopia
+//
+//  Created by jianjianhong on 17/9/21.
+//  Copyright © 2017年 jianjianhong. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "HomeViewController.h"
+#import "PlanViewController.h"
+#import "IdeaViewController.h"
+#import "MeViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self setChildVC];
+}
+
+
+- (void)setChildVC{
+    HomeViewController *homeVC = [[HomeViewController alloc]init];
+    homeVC.view.backgroundColor = [UIColor yellowColor];
+    homeVC.title = @"首页";
+    homeVC.tabBarItem.title = @"首页";
+    homeVC.tabBarItem.image = [self imageFromColor:[UIColor yellowColor] andFrame:CGRectMake(0, 0, 33, 33)];
+    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:homeVC];
+    
+    PlanViewController *planVC = [[PlanViewController alloc]init];
+    planVC.title = @"计划实验室";
+    planVC.tabBarItem.title = @"计划";
+    planVC.view.backgroundColor = [UIColor blueColor];
+    planVC.tabBarItem.image = [self imageFromColor:[UIColor blueColor] andFrame:CGRectMake(0, 0, 33, 33)];
+    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:planVC];
+    
+    IdeaViewController *ideaVC = [[IdeaViewController alloc]init];
+    ideaVC.title = @"构想孵化";
+    ideaVC.tabBarItem.title = @"构想";
+    ideaVC.view.backgroundColor = [UIColor redColor];
+    ideaVC.tabBarItem.image = [self imageFromColor:[UIColor redColor] andFrame:CGRectMake(0, 0, 33, 33)];
+    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:ideaVC];
+    
+    MeViewController *meVC = [[MeViewController alloc]init];
+    meVC.title = @"我";
+    meVC.tabBarItem.title = @"我";
+    meVC.view.backgroundColor = [UIColor redColor];
+    meVC.tabBarItem.image = [self imageFromColor:[UIColor redColor] andFrame:CGRectMake(0, 0, 33, 33)];
+    UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:meVC];
+    
+    self.viewControllers = @[nav1,nav2,nav3,nav4];
+}
+
+- (UIImage *)imageFromColor:(UIColor *)color andFrame:(CGRect)frame{
+    
+    CGRect rect = frame;
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return img;
+}
+
+
+@end
