@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97BA669B1F775F3000AC6D48 /* TodayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BA66991F775F3000AC6D48 /* TodayDetailViewController.m */; };
+		97BA669C1F775F3000AC6D48 /* TodayDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BA669A1F775F3000AC6D48 /* TodayDetailViewController.xib */; };
+		97BA66A01F775F4F00AC6D48 /* WeekPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BA669E1F775F4F00AC6D48 /* WeekPlanViewController.m */; };
+		97BA66A11F775F4F00AC6D48 /* WeekPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BA669F1F775F4F00AC6D48 /* WeekPlanViewController.xib */; };
+		97BA66A51F775F6900AC6D48 /* HabitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BA66A31F775F6900AC6D48 /* HabitViewController.m */; };
+		97BA66A61F775F6900AC6D48 /* HabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BA66A41F775F6900AC6D48 /* HabitViewController.xib */; };
+		97BA66A81F7761A200AC6D48 /* TodayDetailTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BA66A71F7761A200AC6D48 /* TodayDetailTableCell.xib */; };
 		97F7929E1F73C7FA0049FE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F7929D1F73C7FA0049FE8E /* main.m */; };
 		97F792A11F73C7FA0049FE8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792A01F73C7FA0049FE8E /* AppDelegate.m */; };
 		97F792A71F73C7FA0049FE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F792A51F73C7FA0049FE8E /* Main.storyboard */; };
 		97F792A91F73C7FA0049FE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F792A81F73C7FA0049FE8E /* Assets.xcassets */; };
 		97F792AC1F73C7FA0049FE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F792AA1F73C7FA0049FE8E /* LaunchScreen.storyboard */; };
 		97F792DC1F73D4D90049FE8E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792CB1F73D4D90049FE8E /* HomeViewController.m */; };
-		97F792DD1F73D4D90049FE8E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F792CC1F73D4D90049FE8E /* HomeViewController.xib */; };
 		97F792DE1F73D4D90049FE8E /* IdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792CF1F73D4D90049FE8E /* IdeaViewController.m */; };
 		97F792DF1F73D4D90049FE8E /* IdeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F792D01F73D4D90049FE8E /* IdeaViewController.xib */; };
 		97F792E01F73D4D90049FE8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F792D31F73D4D90049FE8E /* ViewController.m */; };
@@ -24,6 +30,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97BA66981F775F3000AC6D48 /* TodayDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayDetailViewController.h; sourceTree = "<group>"; };
+		97BA66991F775F3000AC6D48 /* TodayDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayDetailViewController.m; sourceTree = "<group>"; };
+		97BA669A1F775F3000AC6D48 /* TodayDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayDetailViewController.xib; sourceTree = "<group>"; };
+		97BA669D1F775F4F00AC6D48 /* WeekPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekPlanViewController.h; sourceTree = "<group>"; };
+		97BA669E1F775F4F00AC6D48 /* WeekPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekPlanViewController.m; sourceTree = "<group>"; };
+		97BA669F1F775F4F00AC6D48 /* WeekPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekPlanViewController.xib; sourceTree = "<group>"; };
+		97BA66A21F775F6900AC6D48 /* HabitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitViewController.h; sourceTree = "<group>"; };
+		97BA66A31F775F6900AC6D48 /* HabitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitViewController.m; sourceTree = "<group>"; };
+		97BA66A41F775F6900AC6D48 /* HabitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HabitViewController.xib; sourceTree = "<group>"; };
+		97BA66A71F7761A200AC6D48 /* TodayDetailTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayDetailTableCell.xib; sourceTree = "<group>"; };
 		97F792991F73C7FA0049FE8E /* Utopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F7929D1F73C7FA0049FE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97F7929F1F73C7FA0049FE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,7 +50,6 @@
 		97F792AD1F73C7FA0049FE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F792CA1F73D4D90049FE8E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		97F792CB1F73D4D90049FE8E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		97F792CC1F73D4D90049FE8E /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		97F792CE1F73D4D90049FE8E /* IdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaViewController.h; sourceTree = "<group>"; };
 		97F792CF1F73D4D90049FE8E /* IdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaViewController.m; sourceTree = "<group>"; };
 		97F792D01F73D4D90049FE8E /* IdeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdeaViewController.xib; sourceTree = "<group>"; };
@@ -123,7 +138,16 @@
 			children = (
 				97F792CA1F73D4D90049FE8E /* HomeViewController.h */,
 				97F792CB1F73D4D90049FE8E /* HomeViewController.m */,
-				97F792CC1F73D4D90049FE8E /* HomeViewController.xib */,
+				97BA66981F775F3000AC6D48 /* TodayDetailViewController.h */,
+				97BA66991F775F3000AC6D48 /* TodayDetailViewController.m */,
+				97BA669A1F775F3000AC6D48 /* TodayDetailViewController.xib */,
+				97BA669D1F775F4F00AC6D48 /* WeekPlanViewController.h */,
+				97BA669E1F775F4F00AC6D48 /* WeekPlanViewController.m */,
+				97BA669F1F775F4F00AC6D48 /* WeekPlanViewController.xib */,
+				97BA66A21F775F6900AC6D48 /* HabitViewController.h */,
+				97BA66A31F775F6900AC6D48 /* HabitViewController.m */,
+				97BA66A41F775F6900AC6D48 /* HabitViewController.xib */,
+				97BA66A71F7761A200AC6D48 /* TodayDetailTableCell.xib */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -227,12 +251,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				97F792E41F73D4D90049FE8E /* PlanViewController.xib in Resources */,
+				97BA66A11F775F4F00AC6D48 /* WeekPlanViewController.xib in Resources */,
 				97F792E21F73D4D90049FE8E /* MeViewController.xib in Resources */,
 				97F792AC1F73C7FA0049FE8E /* LaunchScreen.storyboard in Resources */,
+				97BA669C1F775F3000AC6D48 /* TodayDetailViewController.xib in Resources */,
 				97F792A91F73C7FA0049FE8E /* Assets.xcassets in Resources */,
 				97F792A71F73C7FA0049FE8E /* Main.storyboard in Resources */,
-				97F792DD1F73D4D90049FE8E /* HomeViewController.xib in Resources */,
+				97BA66A81F7761A200AC6D48 /* TodayDetailTableCell.xib in Resources */,
 				97F792DF1F73D4D90049FE8E /* IdeaViewController.xib in Resources */,
+				97BA66A61F775F6900AC6D48 /* HabitViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,12 +271,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				97F792E11F73D4D90049FE8E /* MeViewController.m in Sources */,
+				97BA66A01F775F4F00AC6D48 /* WeekPlanViewController.m in Sources */,
 				97F792E31F73D4D90049FE8E /* PlanViewController.m in Sources */,
 				97F792A11F73C7FA0049FE8E /* AppDelegate.m in Sources */,
 				97F792DE1F73D4D90049FE8E /* IdeaViewController.m in Sources */,
 				97F7929E1F73C7FA0049FE8E /* main.m in Sources */,
 				97F792DC1F73D4D90049FE8E /* HomeViewController.m in Sources */,
+				97BA66A51F775F6900AC6D48 /* HabitViewController.m in Sources */,
 				97F792E01F73D4D90049FE8E /* ViewController.m in Sources */,
+				97BA669B1F775F3000AC6D48 /* TodayDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +436,7 @@
 				97F792B21F73C7FA0049FE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
